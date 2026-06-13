@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Binary — Software Studio">
+  <rect width="1280" height="360" fill="#F0EBE1"/>
+
+  <!-- subtle gold radial glow, top right -->
+  <circle cx="1100" cy="80" r="220" fill="#7A5F1E" opacity="0.06"/>
+
+  <!-- top eyebrow rule + label -->
+  <g transform="translate(80, 70)">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#7A5F1E" stroke-width="1"/>
+    <text x="56" y="4" font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-size="11" letter-spacing="3.5" fill="#7A5F1E">SOFTWARE STUDIO</text>
+  </g>
+
+  <!-- wordmark: Binary [italic Tech] -->
+  <g transform="translate(80, 200)">
+    <text font-family="Georgia, 'Times New Roman', serif" font-size="96" fill="#080808" letter-spacing="-2">
+      Binary <tspan font-style="italic" fill="#7A5F1E">Tech</tspan>
+    </text>
+  </g>
+
+  <!-- tagline -->
+  <g transform="translate(80, 252)">
+    <text font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="rgba(8,8,8,0.62)" letter-spacing="0.2">
+      Transforming ideas into powerful digital solutions.
+    </text>
+  </g>
+
+  <!-- location/meta footer -->
+  <g transform="translate(80, 310)">
+    <text font-family="'SF Mono', 'Menlo', 'Consolas', monospace" font-size="10" letter-spacing="2.5" fill="rgba(8,8,8,0.42)">
+      LIBYA  ·  BUILT FOR MENA  ·  BINARY.LY
+    </text>
+  </g>
+
+  <!-- B mark, right side -->
+  <g transform="translate(960, 50) scale(0.24)">
+    <path fill="#080808" d="M924.32,622.42l-156.86.13,156.86-162.88v-163.68l-161.51-161.56h-444.1v159.3l-163.03-159.2v163.41l157.9,161.41h-157.9s0,162.97,0,162.97l158.06,160.1-158.06.69v162.47h607.53l161.12-162.27v-160.88ZM318.71,298.42h442.08v160.92h-442.08v-160.92ZM760.79,780.45l-442.08,1.94-.02-159.97h442.1v158.03Z"/>
+  </g>
+
+  <!-- gold hairline bottom -->
+  <line x1="0" y1="359" x2="1280" y2="359" stroke="#7A5F1E" stroke-width="0.5" opacity="0.4"/>
+</svg>
