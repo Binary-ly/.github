@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" role="img" aria-label="Binary — anonymous team member">
+  <rect width="500" height="500" fill="#080808"/>
+
+  <!-- subtle gold glow, top right -->
+  <circle cx="420" cy="80" r="140" fill="#C9A84C" opacity="0.06"/>
+  <circle cx="80" cy="440" r="120" fill="#C9A84C" opacity="0.04"/>
+
+  <!-- corner brackets -->
+  <g stroke="#C9A84C" stroke-width="1.5" fill="none">
+    <path d="M 50 50 L 50 78 M 50 50 L 78 50"/>
+    <path d="M 450 50 L 450 78 M 450 50 L 422 50"/>
+    <path d="M 50 450 L 50 422 M 50 450 L 78 450"/>
+    <path d="M 450 450 L 450 422 M 450 450 L 422 450"/>
+  </g>
+
+  <!-- B-mark, large, low-opacity centerpiece (cream so it sits well on ink) -->
+  <g transform="translate(120, 88) scale(0.24)" opacity="0.32">
+    <path fill="#F0EBE1" d="M924.32,622.42l-156.86.13,156.86-162.88v-163.68l-161.51-161.56h-444.1v159.3l-163.03-159.2v163.41l157.9,161.41h-157.9s0,162.97,0,162.97l158.06,160.1-158.06.69v162.47h607.53l161.12-162.27v-160.88ZM318.71,298.42h442.08v160.92h-442.08v-160.92ZM760.79,780.45l-442.08,1.94-.02-159.97h442.1v158.03Z"/>
+  </g>
+
+  <!-- gold hairline accent -->
+  <line x1="200" y1="380" x2="300" y2="380" stroke="#C9A84C" stroke-width="0.8" opacity="0.7"/>
+
+  <!-- caption -->
+  <text x="250" y="420" text-anchor="middle"
+        font-family="'SF Mono', 'Menlo', 'Consolas', monospace"
+        font-size="11" letter-spacing="4.5" fill="#C9A84C">BINARY  ·  TEAM</text>
+</svg>
